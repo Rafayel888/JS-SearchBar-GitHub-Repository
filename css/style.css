@@ -1,0 +1,116 @@
+.body{
+  background: #0D1117FF;
+  
+}
+
+.Form{
+  max-width: 800px;
+  margin: 0 auto;
+}
+.d01 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 950px;
+  height: auto;
+  margin: 0 auto;
+  padding: 50px 0;
+  margin: 0 15px 0 15px;
+}
+#searchBar {
+  font-family: gabriola;
+  font-size: 20px;
+  border-width: 2px 4px;
+  border-radius: 40px;
+}
+#searchBar::placeholder{
+  text-align: center;
+}
+ #button{
+  width: 140px;
+  height: 30px;
+  background-color: #161B22FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin-top: 20px;
+  color: white;
+}
+#button:hover{
+  border: 1px solid #238636FF;
+}
+.d01 {
+  position: relative;
+}
+.d01::after {
+  content: "🔍";
+  position: absolute;
+  top: 57px;
+  right: 15px;
+}
+
+#main_show > .child{
+  width: 230px;
+  height: 200px;
+  display: inline-block;
+  justify-content: center;
+  border-radius: 12%;
+  text-align: start;
+  font-size: 15px;
+  box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.3);
+  background-color:#161B22FF;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 15px;
+  color: white;
+  
+}
+.child h5,h6{
+  text-transform: uppercase;
+  font-size: 14px;
+  text-align: center;
+}
+.child a{
+  text-decoration: none;
+  color: inherit;
+  transition: color .2s ease-in-out;
+}
+.child a:hover{
+  color: white;
+  letter-spacing: 4px;
+    line-height: 10px;
+    text-shadow: 0 0 5px white;
+}
+.child .images{
+  max-width: 230px;
+  height: 130px;
+  margin: 0 20px 5px 40px;
+  border-radius: 5px;
+  transition: .7s;
+  cursor: pointer;
+  
+}
+.child .images:hover{
+  transform: scale(1.05);
+}
+.img__div{
+ width: clamp(200px, 100%, 230px);
+ overflow: hidden;
+
+}
+
+
+#main_show{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 100px 0;
+  position: relative;
+}
+
+#empty_head{
+  text-align: center;
+}
